@@ -1,0 +1,19 @@
+:root {
+  /* Font Families */
+  --font-primary: "Rubik", sans-serif;
+
+  /* Font Sizes */
+  --font-size-29: 1.81rem;
+  --font-size-32: 2rem;
+  --font-size-83: 5.19rem;
+
+  /* Font Weights */
+  --font-weight-400: 400;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-400);
+}

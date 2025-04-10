@@ -1,0 +1,25 @@
+.featured-in-section {
+  padding: 4.8rem 0 3.2rem 0;
+
+  &__heading {
+    font-size: var(--font-size-22);
+    letter-spacing: 0.75px;
+    font-weight: var(--font-weight-500);
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color-grey-light--two);
+
+    margin-bottom: 2.4rem;
+  }
+
+  &__logos {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__logo {
+    height: 3.2rem;
+    filter: brightness(0);
+    opacity: 50%;
+  }
+}

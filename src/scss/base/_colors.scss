@@ -1,0 +1,19 @@
+:root {
+  /* Primary Colors */
+  --color-primary--one: hsl(28, 80%, 52%); /* Blue */
+
+  /* Secondary Colors */
+  --color-secondary--one: hsl(28, 80%, 90%); /* Green */
+
+  /* Neutral Colors */
+  --color-white: hsl(0, 0%, 100%);
+  --color-grey: hsl(0, 0%, 33%);
+  --color-grey-dark: hsl(0, 0%, 20%);
+
+  /* Hover Colors */
+  --color-hover--one: hsl(28, 74%, 47%); /* Dark Blue */
+}
+
+body {
+  color: var(--color-grey);
+}
